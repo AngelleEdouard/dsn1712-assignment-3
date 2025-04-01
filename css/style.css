@@ -56,10 +56,32 @@ nav ul {
 h1 {
     max-width: 60%;
     background-color: rgb(0, 0, 0, 0.5);
-    text-shadow: 2px 2px 2px white; 
+    text-shadow: 2px 2px 2px black; 
     text-align: center;
-
+    color: white;;
 }
+
+h2 {
+    font-size: 3rem;
+}
+
+#about-me .wrapper {
+   max-width: 940px; 
+   display: flex;
+   align-content: space-around;
+}
+
+
+.img-container {
+    align-self: flex-end;
+    max-block-size: 450px;
+}
+
+.text-container {
+    align-self: center;
+    max-block-size: 450px;
+}
+
 
 
 
