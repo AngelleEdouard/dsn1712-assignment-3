@@ -28,6 +28,11 @@ header .wrapper {
     justify-content: space-between;
 }
 
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
 nav ul {
     display: flex;
     gap: 1em;
@@ -35,10 +40,28 @@ nav ul {
 
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
+#hero {
+    height: 600px;
+    background-image: url(../images/hands-typing.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    font-size: 1rem;
 }
+
+h1 {
+    max-width: 60%;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px white; 
+    text-align: center;
+
+}
+
+
 
 
 
