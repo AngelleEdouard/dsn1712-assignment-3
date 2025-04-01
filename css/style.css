@@ -28,6 +28,18 @@ header .wrapper {
     justify-content: space-between;
 }
 
+nav ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
 
 
 
